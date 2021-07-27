@@ -1,0 +1,7 @@
+{
+  "cleanUrls": false,
+  "rewrites": [
+    { "source": "", "destination": "/demo/index.html" },
+    { "source": "/css.css", "destination": "/demo/css.css" }
+  ]
+}

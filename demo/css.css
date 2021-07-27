@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  margin: auto;
+  width: 50%;
+  justify-content: center;
+  flex-direction: column;
+  height: 400px;
+}
+
+h1 {
+  text-align: center;
+}
