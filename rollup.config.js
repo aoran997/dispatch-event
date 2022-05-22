@@ -10,6 +10,8 @@ const extensions = [
   '.tsx'
 ]
 
+console.log(getPath('./tsconfig.json'))
+
 const tsPlugin = ts({
   tsconfig: getPath('./tsconfig.json'), // 导入本地ts配置
   extensions
@@ -24,8 +26,9 @@ export default {
 	output: [
     {
       file: 'dist/index.js',
-      format: 'cjs',
-      name: 'index'
+      format: 'esm',
+      name: 'index',
+      exports: 'named'
     },
     {
       file: 'dist/index.m.js',

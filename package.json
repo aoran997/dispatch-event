@@ -1,6 +1,6 @@
 {
   "name": "emiter-js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "事件监听工具",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aoran997/dispatch-event.git"
+    "url": "git+https://github.com/aoran997/emiter-js.git"
   },
   "keywords": [
     "js",
@@ -26,9 +26,9 @@
   "author": "aoran997",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/aoran997/dispatch-event/issues"
+    "url": "https://github.com/aoran997/emiter-js/issues"
   },
-  "homepage": "https://github.com/aoran997/dispatch-event#readme",
+  "homepage": "https://github.com/aoran997/emiter-js#readme",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^17.0.0",
     "@rollup/plugin-node-resolve": "^11.1.0",
@@ -36,9 +36,7 @@
     "rollup": "^2.36.2",
     "rollup-plugin-terser": "^7.0.2",
     "serve": "^11.3.2",
-    "typescript": "^4.3.5"
-  },
-  "dependencies": {
+    "typescript": "^4.3.5",
     "date-fns": "^2.16.1",
     "rollup-plugin-typescript2": "^0.30.0"
   }

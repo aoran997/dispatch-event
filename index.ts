@@ -1,7 +1,7 @@
 /**
  * 事件监听工具
  */
- interface Option {
+interface Option {
   /**创建监听时使用该参数可以单独移除监听 */
   dispatchKey?: string;
 }
@@ -62,4 +62,9 @@ export const eventListener = {
       delete events[eventName]
     }
   }
+}
+
+export default {
+  eventEmitter,
+  eventListener
 }
