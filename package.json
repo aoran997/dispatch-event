@@ -1,6 +1,6 @@
 {
   "name": "emiter-js",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "事件监听工具",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -24,7 +24,7 @@
     "事件"
   ],
   "author": "aoran997",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/aoran997/emiter-js/issues"
   },
